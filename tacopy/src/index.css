@@ -10,6 +10,7 @@ input, button {
     background: none;
     border: none;
     outline: none;
+    font-size: xx-large;
 }
 
 .App {
@@ -17,7 +18,7 @@ input, button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(213, 228, 85);
+    background-image: linear-gradient(to bottom right, #DAFF00, #D9FFB2, white);
 }
 
 from {
@@ -75,7 +76,7 @@ form .form-inner .form-group input {
     display: block;
     width: 100%;
     padding: 20px 15px;
-    background-color: aliceblue;
+    background-color: rgb(211, 222, 231);
     border-radius: 8px;
     transition: 0.4s;
 }
@@ -89,7 +90,7 @@ form .form-inner input[type="submit"],
     display: inline-block;
     padding: 10px 15px;
     border-radius: 8px;
-    background-image: linear-gradient(to right, white 50%, pink 50%, orange);
+    background-image: linear-gradient(to right, white 50%, pink 50%, #ADD8E6);
     background-size: 200%;
     background-position: #2c2525;
     transition: 0.4s;
