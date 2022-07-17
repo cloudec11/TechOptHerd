@@ -104,20 +104,21 @@ form .form-inner input[type="submit"],
 form .form-inner input[type="submit"]:hover,
 .welcome button:hover {
     background-position: 100% 0%;
+    margin-left: 1000px;
 }
 
 .welcome {
-    width: 100%;
-    max-width: 480px;
+    margin: 0;
+    padding: 0;
     background-color: #FFFFFF;
-    padding: 150px 50px;
 }
 
 .welcome h2 {
     color: rgb(0, 0, 0);
-    font-size: 42px;
+    font-size: 80px;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 600px;
+    margin-right: 1450px;
 }
 
 .welcome h2 span {

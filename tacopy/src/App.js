@@ -1,6 +1,10 @@
 import React, {useState} from 'react';
 import LoginForm from './components/LoginForm';
+
+import Mainpage  from './components/Mainpage';
+
 import SubmitMarks from './components/SubmitMarks';
+
 
 function App() {
 
@@ -64,7 +68,6 @@ function App() {
     </div>
   );
 
-
   function four(){
     times = 4
     console.log("times set to 4");
@@ -80,6 +83,7 @@ function App() {
       <SubmitMarks />
     }
   }
+
 }
 
 export default App;
