@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import LoginForm from './components/LoginForm';
+import Mainpage  from './components/Mainpage';
 function App() {
 
   const [user, setUser] = useState({name:""})
@@ -40,6 +41,8 @@ function App() {
       )}
     </div>
   );
+
+  
 }
 
 export default App;
